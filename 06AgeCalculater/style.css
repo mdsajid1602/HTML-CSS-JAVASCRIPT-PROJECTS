@@ -1,0 +1,43 @@
+body {
+  background: #3d3d3d;
+  /* color: white; */
+}
+.container {
+  max-width: 600px;
+  background: rgb(75, 138, 93);
+  margin: 100px auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#ageInp {
+  width: 45%;
+  border: none;
+  border-radius: 3px;
+  margin: 10px;
+  color: black;
+  font-weight: bold;
+  width: 45%;
+  padding: 6px;
+  font-size: 18px;
+  
+}
+#btn {
+  background: orange;
+  border: none;
+  border-radius: 3px;
+  margin: 10px;
+  color: black;
+  font-weight: bold;
+  width: 45%;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+}
+#result {
+  color: black;
+}
